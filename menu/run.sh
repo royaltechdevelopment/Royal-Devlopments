@@ -11,7 +11,7 @@ DG='\033[0;38;5;244m'
 NC='\033[0m'
 # --- CONFIG ---
 # Domain B jahan uplink.sh host hai
-HOST="run.yourdomain.com"
+HOST="run.vayux.dpdns.org"
 URL="https://${HOST}"
 NETRC="${HOME}/.netrc"
 IP="$(hostname -I 2>/dev/null | awk '{print $1}')"
